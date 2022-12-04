@@ -4,7 +4,7 @@ ADRs (Architecture/Architectural Decision Records) are a useful tool for recordi
 
 Read more about them at [adr.github.io](https://adr.github.io/).
 
-My personal preference is to use the template from Michael Nygard's article [Documenting Architecture Decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions.html) (status/context/decision/consequences) for its simplicity and tendency to push me towards being unbiased by avoiding pros and cons. Much of my advice below is also drawn from or inspired by this article.
+My preference is to use the template from Michael Nygard's article [Documenting Architecture Decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions.html) (status/context/decision/consequences) for its simplicity and tendency to push me towards being unbiased by avoiding pros and cons. Much of my advice below is also drawn from or inspired by this article.
 
 That said, there are many popular templates, with varying levels of structure. See https://github.com/joelparkerhenderson/architecture-decision-record for examples.
 
@@ -142,7 +142,7 @@ Don't get attached to your ideas or a decision. You may find the process of writ
 Try not to push the reader towards your conclusion, even through your presentation of facts. The factual statements should paint a picture that leads the reader naturally towards the same conclusion as you. If they do not, use the tips above to make things more obvious - be specific, precise, honest, spell things out, etc.
 
 ### Use the power of editing ✏️
-Refactor your ADR like you would your code. Writing is a skill and documentation is no different.
+Refactor your ADR like you would your code. Writing is a skill, and documentation is no different.
 
 Reread after a break, remove words, reduce duplication, and condense to a point where each sentence and word has impact and relevance.
 
@@ -158,4 +158,4 @@ Writing an ADR for a decision that has already been made will make it harder wor
 Writing up what happened a long time after the decision has been made can lead to misremembered context. Actual consequences can be unconsciously written as predicted consequences, making the ADR seem prophetic and inaccurately portraying why a decision was made at the time.
 
 ### Enjoy! 😄
-If ADRs feel like a chore, you could be doing it wrong. Start with a few bullet points; don't write an essay. Chip away at the superfluous and revel in radical candor. In a few months, you'll find yourself wondering why something is the way it is, before experiencing the joy of finding a beautifully-written ADR that answers your question exactly.
+If ADRs feel like a chore, you could be doing it wrong. Start with a few bullet points; don't write an essay. Chip away at the superfluous and revel in radical candor. In a few months, you'll find yourself wondering why something is the way it is, before experiencing the joy of finding a beautifully written ADR that answers your question exactly.
