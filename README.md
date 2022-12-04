@@ -1,14 +1,12 @@
 # ADR Tips
 
-ADRs (Architecture/Architectural Decision Records) are a useful tool for recording decisions related to a software project for future reference.
+ADRs (Architecture/Architectural Decision Records) are a useful tool for recording decisions related to a software project for future reference. Read more about them at [adr.github.io](https://adr.github.io/).
 
-Read more about them at [adr.github.io](https://adr.github.io/).
-
-My preference is to use the template from Michael Nygard's article [Documenting Architecture Decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions.html) (status/context/decision/consequences) for its simplicity and tendency to push me towards being unbiased by avoiding pros and cons. Much of my advice below is also drawn from or inspired by this article.
+My preference is to use the template from Michael Nygard's article [Documenting Architecture Decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions.html) (status/context/decision/consequences) for its simplicity and tendency to push me towards being unbiased by avoiding pros and cons.
 
 That said, there are many popular templates, with varying levels of structure. See https://github.com/joelparkerhenderson/architecture-decision-record for examples.
 
-Below, I have captured my thoughts on ADRs and how best to write them.
+Michael Nygard's article is a wonderful guide to ADRs and full of golden advice. It should be the starting point for anyone interested in using ADRs and I urge you to read it before proceeding to the tips below: much of my advice below is drawn from or inspired by this article.
 
 ## Aim
 The goal of an ADR is to clearly depict the situation at the time a decision was made so that someone in the same situation with the same context would draw the same conclusions.
