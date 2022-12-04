@@ -139,6 +139,10 @@ Don't get attached to your ideas or a decision. You may find the process of writ
 ### Avoid bias 🙅
 Try not to push the reader towards your conclusion, even through your presentation of facts. The factual statements should paint a picture that leads the reader naturally towards the same conclusion as you. If they do not, use the tips above to make things more obvious - be specific, precise, honest, spell things out, etc.
 
+Try to keep your Decision section a brief list of what you will do. If you feel the need to justify your decision further in this section, your context may need expanding.
+
+Similarly, your Consequences section should be concise, factual, and a mixture of positive, negative and neutral consequences that will have any impact on the team going forwards.
+
 ### Use the power of editing ✏️
 Refactor your ADR like you would your code. Writing is a skill, and documentation is no different.
 
