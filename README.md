@@ -1,4 +1,4 @@
-# ADRs
+# ADR Tips
 
 ADRs (Architecture/Architectural Decision Records) are a useful tool for recording decisions related to a software project for future reference.
 
