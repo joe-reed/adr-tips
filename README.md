@@ -15,20 +15,12 @@ The goal of an ADR is to clearly depict the situation at the time a decision was
 
 Put yourself into the mindset of a person from the future, who may be thinking:
 - "This choice doesn't seem optimal today - what was the business or team's situation that led to it?"
-- "We think that X is a better option but want to make sure there’s nothing we’re missing"
+- "We think that X is a better option but want to make sure there's nothing we're missing"
 - "This decision is now having consequence Y - was this considered at the time?"
 
 A reader should be able to evaluate the reasons behind a decision given a new context and know objectively if they are still true. If they are not, they should be able to confidently supersede the decision.
 
 ## Tips
-### Write your ADR at the time of the decision ⏱️
-Aim to write it up before making the decision, or if not possible, as soon as possible afterwards.
-
-The ADR itself can be a useful way to summarise thoughts and come to an unbiased outcome.
-
-Writing an ADR for a decision that has already been made will make being unbiased harder work, to avoid pushing a reader towards a foregone conclusion.
-
-Writing up what happened a long time after the decision has been made can lead to misremembered context. Actual consequences can be unconsciously written as predicted consequences, making the ADR seem prophetic and inaccurately portraying why a decision was made at the time.
 
 ### Be specific 💯
 Drill down into the precise problem you are trying to solve. List assumptions about the future, and the particulars of _your_ situation. Provide concrete examples.
@@ -39,7 +31,7 @@ Drill down into the precise problem you are trying to solve. List assumptions ab
 ### Stay relevant 🔗
 General pros and cons do not help future readers understand why you chose a particular option for your situation.
 
-Feel free to omit generic discussion and stick to the points that are directly relevant to your specific situation.
+Feel free to omit generic discussion and stick to the facts that are directly relevant to your specific situation.
 
 Ask yourself "so what?" when reading your points.
 - ❌ "X is the most popular database provider”"
@@ -51,7 +43,7 @@ If there is anything at all that is relevant to the decision, include it, even i
 
 Paint a rich picture of the business context to allow for full recall and understanding in the future.
 
-An exhaustive list of drivers means someone reading in the future can supersede the decision, confident that they aren't missing anything.
+An exhaustive list of drivers means a future reader can supersede the decision, confident that they aren't missing anything.
 
 ### Stick to factual statements ✅
 Try to avoid opinions. If opinions _were_ what led to the decision, call them out as such.
@@ -68,7 +60,7 @@ Eliminate any degree of subjectivity. Opinions can be subtle, and masquerade as 
 If you find yourself answering a whole other question in the context of your ADR, it could be time for a separate ADR.
 
 ### Keep context value-neutral 😐
-It’s possible that things that are negatives in the current context could be positives in a different context. List facts and allow readers to decide if they are pros or cons.
+It's possible that things that are negatives in the current context could be positives in a different context. List facts and allow readers to decide if they are pros or cons.
 
 This tip is more flexible; pros and cons lists can be okay if sticking to objective truths, but question your assumptions. Is something "bad" because of commonly held best practices that could change in the future? If so, say so!
 
@@ -78,16 +70,16 @@ This tip is more flexible; pros and cons lists can be okay if sticking to object
 ### Cite your sources 🧐
 If stating facts about options, link to supporting evidence.
 
-If an article was useful to you, provide it - the age of the article or newer articles from the same author could both be useful context when revisiting the decision.
+If an article was useful to you, provide it - the age of the article or newer articles from the same author could be useful context when revisiting the decision.
 
 Provide numbers if you can.
 
 ### Avoid passive voice 🗣️
-Things don’t happen by themselves - they’re decisions made by a person or team, so call them out as such and be clear.
+Things don't happen by themselves - they're decisions made by a person or team, so list them as such and be clear.
 
-If the decision is driven by opinions or rulings of a specific person/people external to the team don’t avoid naming them. This allows for a change of direction in the future if the person changes their mind or leaves the company.
+If the decision is driven by opinions or rulings of a specific person/people external to the team, name them. This allows for a change of direction in the future if this person changes their mind or leaves the company.
 
-Don’t make it personal - keep it factual and check with the person that you have accurately represented their stance.
+Don't make it personal - keep it factual and check with the person that you have accurately represented their stance.
 
 Avoid nebulous concepts such as "the business" - be specific about the team or person to allow a future reader to return to them with questions in a new context.
 
@@ -105,25 +97,25 @@ Do not apportion blame for how your context came to be; ideally, previous decisi
 ### Reference other ADRs 📝
 Decisions from other ADRs can form assumptions for following ADRs, so make sure you refer back to them to provide full context.
 
-### Don’t assume anything is obvious 🤷‍
+### Don't assume anything is obvious 🤷‍
 Different readers could have different experience or expertise that could lead them to a different conclusion.
 
 Anticipate that someone could be reading your ADR in 5-10 years when industry standards are completely different.
 
 ### Ask "5 whys" 🤔
-Interrogate your context / decision drivers. Dig down into the real underlying reasons and replace broader statements with the heart of the issue/context.
+Interrogate your context/decision drivers. Dig down into the real underlying reasons and replace broader statements with the heart of the issue.
 
 ### Be honest 🤥
 Avoid retrospectively painting a picture to explain a decision - put the real reasons, no matter what they are.
 
-Don’t shy away from recording "political" decisions accurately. Include business context, external pressures, personal preferences - whatever the _actual_ reason is for the decision being made.
+Don't shy away from recording "political" decisions accurately. Include business context, external pressures, personal preferences - whatever the _actual_ reason is for the decision being made.
 
 This may force the team to confront uncomfortable truths or biases - but this is healthy and important to include as part of the reasons for a decision.
 
 ### Be concise 🤏
-Nobody wants to read a wall of text. Be economical with words. Don’t be afraid of coming across as blunt.
+Nobody wants to read a wall of text. Be economical with words. Don't be afraid of coming across as blunt.
 
-Don’t feel the need to pad things out - short and to the point ADRs with only a couple of bullet points are fine (as long as you’re comprehensive!)
+Don't feel the need to pad things out - short and to the point ADRs with only a couple of bullet points are fine (as long as you're comprehensive!)
 
 ### Use full sentences 🖋️
 Despite the previous point, favour full sentences, good grammar and organised paragraphs. Writing in shorthand can leave statements open to interpretation and cause confusion.
@@ -141,20 +133,29 @@ Imprecise facts can belie the true behind-the-scenes story. Don't be afraid to r
 Favour being explicit over expecting readers to read between the lines.
 
 ### Preempt questions or consequences 🔮
-The ability of a great ADR to read the reader's mind is a key property to aim for. Brainstorm potential "what about?"s and "have you considered"s and head them off. A reader is ideally left without any remaining questions or concerns.
+Aim for your ADR to read the reader's mind. Brainstorm potential "what about?"s and "have you considered?"s and head them off. A reader is ideally left without any remaining questions or concerns.
 
 ### Keep an open mind 🧘
-Don't get attached to your ideas or a decision. You may find even the process of writing the ADR in objective terms may change your mind.
+Don't get attached to your ideas or a decision. You may find the process of writing the ADR itself changes your mind.
 
 ### Avoid bias 🙅
 Try not to push the reader towards your conclusion, even through presentation of facts. The factual statements should paint a picture that lead the reader naturally towards the same conclusion as you. If they do not, use the tips above to make things more obvious - be specific, precise, honest, spell things out, etc.
 
 ### Use the power of editing ✏️
-Refactor your ADR like you would code. Writing is a skill and documentation is no different.
+Refactor your ADR like you would your code. Writing is a skill and documentation is no different.
 
 Reread after a break, remove words, reduce duplication, condense to a point where each sentence and word has impact and relevance.
 
-Be ruthless and remove irrelevant content, even if it took you time to write, or you're particularly proud of it.
+Be ruthless and remove content if it doesn't add value, even if it took you time to write, or you're particularly proud of it.
+
+### Write your ADR at the time of the decision ⏱️
+Aim to write it up before making the decision, or if not possible, as soon as possible afterwards.
+
+The ADR itself can be a useful way to summarise thoughts and come to an unbiased outcome.
+
+Writing an ADR for a decision that has already been made will make it harder work to avoid pushing a reader towards a foregone conclusion.
+
+Writing up what happened a long time after the decision has been made can lead to misremembered context. Actual consequences can be unconsciously written as predicted consequences, making the ADR seem prophetic and inaccurately portraying why a decision was made at the time.
 
 ### Enjoy! 😄
-If ADRs feel like a chore, you could be doing it wrong. Start with a few bullet points, don't write an essay. Chip away at the superfluous and revel in radical candor. In a few months' time, you'll experience the joy of wondering why something is the way it is, and finding a beautifully-written ADR that answers your question exactly.
+If ADRs feel like a chore, you could be doing it wrong. Start with a few bullet points; don't write an essay. Chip away at the superfluous and revel in radical candor. In a few months' time, you'll experience the joy of wondering why something is the way it is, and then finding a beautifully-written ADR that answers your question exactly.
