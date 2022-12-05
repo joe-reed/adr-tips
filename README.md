@@ -6,7 +6,7 @@ My preference is to use the template from Michael Nygard's article [Documenting 
 
 That said, there are many popular templates, with varying levels of structure. See https://github.com/joelparkerhenderson/architecture-decision-record for examples.
 
-Michael Nygard's article is a wonderful guide to ADRs and full of golden advice. It should be the starting point for anyone interested in using ADRs and I urge you to read it before proceeding to the tips below: much of my advice below is drawn from or inspired by this article.
+Michael Nygard's article is a wonderful guide to ADRs and full of golden advice. It should be the starting point for anyone interested in using ADRs and I urge you to read it before proceeding to the tips below: much of my advice below is drawn from or inspired by his article.
 
 ## Aim
 The goal of an ADR is to clearly depict the situation at the time a decision was made so that someone in the same situation with the same context would draw the same conclusions.
@@ -77,7 +77,7 @@ Things don't happen by themselves - they're decisions made by a person or team, 
 
 If the decision is driven by opinions or rulings of a specific person/people external to the team, name them. This allows for a change of direction in the future if this person changes their mind or leaves the company.
 
-Don't make it personal - keep it factual and check with the person that you have accurately represented their stance.
+Don't make things personal - keep it factual and check with the person that you have accurately represented their stance.
 
 Avoid nebulous concepts such as "the business" - be specific about the team or person to allow a future reader to return to them with questions in a new context.
 
@@ -160,4 +160,4 @@ Writing an ADR for a decision that has already been made will make it harder wor
 Writing up what happened a long time after the decision has been made can lead to misremembered context. Actual consequences can be unconsciously written as predicted consequences, making the ADR seem prophetic and inaccurately portraying why a decision was made at the time.
 
 ### Enjoy! 😄
-If ADRs feel like a chore, you could be doing it wrong. Start with a few bullet points; don't write an essay. Chip away at the superfluous and revel in radical candor. In a few months, you'll find yourself wondering why something is the way it is, before experiencing the joy of finding a beautifully written ADR that answers your question exactly.
+If ADRs feel like a chore, you could be doing it wrong. Start with a few bullet points; don't write an essay. Chip away at the superfluous and revel in radical candour. In a few months, you'll find yourself wondering why something is the way it is, before experiencing the joy of finding a beautifully written ADR that answers your question exactly.
